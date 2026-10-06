@@ -26,8 +26,8 @@ Duração total prevista: 80 minutos.
 
 | # | Passo | Tempo | Situação |
 |---|-------|-------|----------|
-| 1 | Configurar o ambiente (idioma, tom e nível) | 10 min | Desenho fechado |
-| 2 | Pedir bem: pedido vago vs. pedido claro | 20 min | Desenho fechado |
+| 1 | Configurar o ambiente (idioma, tom e nível) | 10 min | Aula escrita |
+| 2 | Pedir bem: pedido vago vs. pedido claro | 20 min | Aula escrita |
 | 3 | Anexar arquivos e pedir uma revisão | 15 min | Desenho fechado |
 | 4 | Gerar algo de verdade com Artifacts e ajustar em 2 ou 3 pedidos | 20 min | Desenho fechado |
 | 5 | Revisar e aprender: pedir que o Claude explique o que fez e conferir o resultado | 10 min | Desenho fechado |
@@ -38,6 +38,8 @@ Duração total prevista: 80 minutos.
 - **Passo 1:** a configuração vem primeiro, e o **idioma** é o primeiro item. O aluno escreve as preferências **com as próprias palavras** (com um modelo para guiar), e a aula avisa que o Claude pode ajudar a escrevê-las. A criação de arquivos também é ligada aqui, porque os passos 3 e 4 dependem dela.
   - *Critério de acerto (proposta, a confirmar):* o aluno abre uma conversa nova, escreve "oi" e recebe resposta em português, no tom que pediu.
 - **Passo 2:** o pedido é **fixo e igual para todos**: um e-mail pedindo folga. O aluno abre **duas conversas novas e separadas** (a separação evita que o primeiro pedido influencie o segundo): primeiro o pedido vago, depois o pedido claro (com destinatário, motivo, datas, tom e tamanho). Ele compara as respostas e **descobre sozinho** o que mudou, guiado por perguntas (por exemplo: "qual resposta você poderia enviar sem mudar nada?"). Só depois a apostila nomeia os elementos de um bom pedido: contexto, objetivo, restrições e formato.
+  - *Textos fixos (aprovados):* pedido vago: "Escreva um e-mail pedindo folga." Pedido claro: "Escreva um e-mail para o meu chefe, o Carlos, pedindo folga nos dias 14 e 15 de dezembro, para resolver um assunto pessoal. O tom deve ser educado e formal. Use no máximo 5 linhas, inclua uma linha de assunto e termine agradecendo."
+  - *Critério de acerto (proposta, a confirmar):* o aluno consegue dizer, com as próprias palavras, pelo menos dois elementos do pedido claro que melhoraram a resposta.
 - **Passo 3:** o aluno escolhe um assunto de que gosta, o Claude cria um arquivo curto com erros de propósito, e o aluno anexa o arquivo de volta e pede uma revisão. O exercício com **código de programação fica fora do Dia 1** (aula futura, "Claude para quem programa").
   - *Critério de acerto (proposta, a confirmar):* o Claude listou ao menos 3 problemas e o aluno consegue explicar um deles com as próprias palavras.
 - **Passo 4:** o aluno escolhe entre **3 ideias simples** listadas na apostila (por exemplo: divisão de conta, conversor de medidas culinárias, quiz). Todas funcionam **sem guardar dados**, para que ninguém peça algo que o plano gratuito não permite. O aluno faz 2 ou 3 pedidos de ajuste.
@@ -61,12 +63,12 @@ Nada abaixo entra na apostila antes de confirmado na documentação oficial ou e
 - [ ] Projetos no plano gratuito (a documentação se contradiz: uma versão diz só pagos, outra diz até cinco gratuitos)
 - [ ] Criação de arquivos e Artifacts: testar em conta gratuita de verdade (a documentação diz que o botão precisa estar ligado em Configurações > Capacidades)
 - [ ] Passos de configuração no celular (a documentação de idioma cobre só web e desktop)
-- [ ] Confirmar os critérios de acerto dos passos 1 e 3 (hoje são propostas)
+- [ ] Confirmar os critérios de acerto dos passos 1, 2 e 3 (hoje são propostas)
 - [ ] Definir o formato do Git opcional do passo 6 (extra do Dia 1 ou aula futura)
-- [ ] Escolher as 3 ideias de artifact do passo 4 e escrever os textos fixos do passo 2 (pedido vago e pedido claro)
+- [ ] Escolher as 3 ideias de artifact do passo 4
 
 ## Próximos passos
 
-1. Escrever as aulas do Dia 1 em Markdown, uma por passo, seguindo o padrão de cada aula
+1. Escrever as aulas restantes do Dia 1 em Markdown, uma por passo (passos 1 e 2 já escritos, em `aula-01/`), seguindo o padrão de cada aula
 2. Testar as pendências em uma conta gratuita
 3. Montar o site e gerar a apostila

@@ -28,7 +28,7 @@ Duração total prevista: 80 minutos.
 |---|-------|-------|----------|
 | 1 | Configurar o ambiente (idioma, tom e nível) | 10 min | Aula escrita |
 | 2 | Pedir bem: pedido vago vs. pedido claro | 20 min | Aula escrita |
-| 3 | Anexar arquivos e pedir uma revisão | 15 min | Desenho fechado |
+| 3 | Anexar arquivos e pedir uma revisão | 15 min | Aula escrita |
 | 4 | Gerar algo de verdade com Artifacts e ajustar em 2 ou 3 pedidos | 20 min | Desenho fechado |
 | 5 | Revisar e aprender: pedir que o Claude explique o que fez e conferir o resultado | 10 min | Desenho fechado |
 | 6 | Fechamento: guardar o que produziu em uma pasta e anotar o que aprendeu (Git opcional) | 5 min | Desenho fechado |
@@ -40,7 +40,7 @@ Duração total prevista: 80 minutos.
 - **Passo 2:** o pedido é **fixo e igual para todos**: um e-mail pedindo folga. O aluno abre **duas conversas novas e separadas** (a separação evita que o primeiro pedido influencie o segundo): primeiro o pedido vago, depois o pedido claro (com destinatário, motivo, datas, tom e tamanho). Ele compara as respostas e **descobre sozinho** o que mudou, guiado por perguntas (por exemplo: "qual resposta você poderia enviar sem mudar nada?"). Só depois a apostila nomeia os elementos de um bom pedido: contexto, objetivo, restrições e formato.
   - *Textos fixos (aprovados):* pedido vago: "Escreva um e-mail pedindo folga." Pedido claro: "Escreva um e-mail para o meu chefe, o Carlos, pedindo folga nos dias 14 e 15 de dezembro, para resolver um assunto pessoal. O tom deve ser educado e formal. Use no máximo 5 linhas, inclua uma linha de assunto e termine agradecendo."
   - *Critério de acerto (proposta, a confirmar):* o aluno consegue dizer, com as próprias palavras, pelo menos dois elementos do pedido claro que melhoraram a resposta.
-- **Passo 3:** o aluno escolhe um assunto de que gosta, o Claude cria um arquivo curto com erros de propósito, e o aluno anexa o arquivo de volta e pede uma revisão. O exercício com **código de programação fica fora do Dia 1** (aula futura, "Claude para quem programa").
+- **Passo 3:** o aluno escolhe um assunto de que gosta, e o Claude cria um **documento do Word (.docx)** de uma página com 5 problemas escondidos (3 de ortografia ou gramática, 1 informação errada e 1 trecho confuso). O aluno baixa o arquivo, tenta achar 2 problemas sozinho e, em uma **conversa nova**, anexa o arquivo e pede a revisão (a conversa nova evita que o Claude já conheça os erros, e a apostila explica isso ao aluno). A apostila avisa que criar arquivos gasta mais do limite do plano gratuito. O exercício com **código de programação fica fora do Dia 1** (aula futura, "Claude para quem programa").
   - *Critério de acerto (proposta, a confirmar):* o Claude listou ao menos 3 problemas e o aluno consegue explicar um deles com as próprias palavras.
 - **Passo 4:** o aluno escolhe entre **3 ideias simples** listadas na apostila (por exemplo: divisão de conta, conversor de medidas culinárias, quiz). Todas funcionam **sem guardar dados**, para que ninguém peça algo que o plano gratuito não permite. O aluno faz 2 ou 3 pedidos de ajuste.
   - *Critério de acerto:* o resultado mudou conforme os pedidos de ajuste.
@@ -69,10 +69,9 @@ Nada abaixo entra na apostila antes de confirmado na documentação oficial ou e
 - [ ] Confirmar os critérios de acerto dos passos 1, 2 e 3 (hoje são propostas)
 - [ ] Definir o formato do Git opcional do passo 6 (extra do Dia 1 ou aula futura)
 - [ ] Escolher as 3 ideias de artifact do passo 4
-- [ ] Escolher o formato do arquivo do passo 3 (Word ou PDF; texto simples não está entre os formatos de criação)
 
 ## Próximos passos
 
-1. Escrever as aulas restantes do Dia 1 em Markdown, uma por passo (passos 1 e 2 já escritos, em `aula-01/`), seguindo o padrão de cada aula
+1. Escrever as aulas restantes do Dia 1 em Markdown, uma por passo (passos 1, 2 e 3 já escritos, em `aula-01/`), seguindo o padrão de cada aula
 2. Testar as pendências em uma conta gratuita
 3. Montar o site e gerar a apostila

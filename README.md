@@ -29,7 +29,7 @@ Duração total prevista: 80 minutos.
 | 1 | Configurar o ambiente (idioma, tom e nível) | 10 min | Aula escrita |
 | 2 | Pedir bem: pedido vago vs. pedido claro | 20 min | Aula escrita |
 | 3 | Anexar arquivos e pedir uma revisão | 15 min | Aula escrita |
-| 4 | Gerar algo de verdade com Artifacts e ajustar em 2 ou 3 pedidos | 20 min | Desenho fechado |
+| 4 | Gerar algo de verdade com Artifacts e ajustar em 2 ou 3 pedidos | 20 min | Aula escrita |
 | 5 | Revisar e aprender: pedir que o Claude explique o que fez e conferir o resultado | 10 min | Desenho fechado |
 | 6 | Fechamento: guardar o que produziu em uma pasta e anotar o que aprendeu (Git opcional) | 5 min | Desenho fechado |
 
@@ -42,7 +42,7 @@ Duração total prevista: 80 minutos.
   - *Critério de acerto (proposta, a confirmar):* o aluno consegue dizer, com as próprias palavras, pelo menos dois elementos do pedido claro que melhoraram a resposta.
 - **Passo 3:** o aluno escolhe um assunto de que gosta, e o Claude cria um **documento do Word (.docx)** de uma página com 5 problemas escondidos (3 de ortografia ou gramática, 1 informação errada e 1 trecho confuso). O aluno baixa o arquivo, tenta achar 2 problemas sozinho e, em uma **conversa nova**, anexa o arquivo e pede a revisão (a conversa nova evita que o Claude já conheça os erros, e a apostila explica isso ao aluno). A apostila avisa que criar arquivos gasta mais do limite do plano gratuito. O exercício com **código de programação fica fora do Dia 1** (aula futura, "Claude para quem programa").
   - *Critério de acerto (proposta, a confirmar):* o Claude listou ao menos 3 problemas e o aluno consegue explicar um deles com as próprias palavras.
-- **Passo 4:** o aluno escolhe entre **3 ideias simples** listadas na apostila (por exemplo: divisão de conta, conversor de medidas culinárias, quiz). Todas funcionam **sem guardar dados**, para que ninguém peça algo que o plano gratuito não permite. O aluno faz 2 ou 3 pedidos de ajuste.
+- **Passo 4:** o aluno escolhe entre **3 ideias simples** listadas na apostila (por exemplo: divisão de conta, conversor de medidas culinárias, quiz). Todas funcionam **sem guardar dados**, para que ninguém peça algo que o plano gratuito não permite. O aluno faz 2 ou 3 pedidos de ajuste, um de cada vez, escolhendo entre uma lista curta de sugestões por ideia e podendo criar um ajuste só dele. O pedido inicial de cada ideia já traz os 4 elementos do passo 2.
   - *Critério de acerto:* o resultado mudou conforme os pedidos de ajuste.
 - **Passo 5:** além de pedir ao Claude uma **explicação em linguagem simples** do que ele fez, o aluno **confere** o resultado: testa o artifact com um caso de resposta conhecida (por exemplo, 100 dividido por 4 dá 25) e aprende a pedir ao Claude que aponte onde pode ter errado. A mensagem central: o Claude pode errar, e quem confere é você.
   - *Critério de acerto:* o aluno testou com um caso conhecido e consegue dizer se o resultado estava certo.
@@ -68,10 +68,10 @@ Nada abaixo entra na apostila antes de confirmado na documentação oficial ou e
 - [ ] Passos de idioma e preferências no celular (a documentação de idioma cobre só web e desktop; para a criação de arquivos o caminho no celular está descrito)
 - [ ] Confirmar os critérios de acerto dos passos 1, 2 e 3 (hoje são propostas)
 - [ ] Definir o formato do Git opcional do passo 6 (extra do Dia 1 ou aula futura)
-- [ ] Escolher as 3 ideias de artifact do passo 4
+- [ ] Confirmar as 3 ideias de artifact do passo 4 (divisão de conta, conversor de medidas culinárias e quiz), assumidas como aprovadas
 
 ## Próximos passos
 
-1. Escrever as aulas restantes do Dia 1 em Markdown, uma por passo (passos 1, 2 e 3 já escritos, em `aula-01/`), seguindo o padrão de cada aula
+1. Escrever as aulas restantes do Dia 1 em Markdown, uma por passo (passos 1 a 4 já escritos, em `aula-01/`), seguindo o padrão de cada aula
 2. Testar as pendências em uma conta gratuita
 3. Montar o site e gerar a apostila

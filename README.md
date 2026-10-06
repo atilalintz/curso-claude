@@ -54,6 +54,9 @@ Duração total prevista: 80 minutos.
 - O armazenamento persistente de artifacts é só dos planos Pro, Max, Team e Enterprise (não do gratuito).
 - O idioma da tela se muda pelo ícone do perfil, no canto inferior esquerdo, em "Idioma" (web e desktop). Português do Brasil está entre os idiomas aceitos, e o Claude responde na língua que o aluno usar.
 - O modo de voz tem um ajuste de idioma separado.
+- Execução de código e criação de arquivos está disponível em todos os planos, inclusive o gratuito, e vem **ligada por padrão** nos planos Free, Pro e Max. O botão fica em Configurações > Capacidades ("Code execution and file creation"). No celular, o caminho descrito é: tocar no nome ou nas iniciais na barra lateral > Configurações > Capacidades.
+- Formatos que o Claude cria: Excel (.xlsx), PowerPoint (.pptx), Word (.docx) e PDF. Texto simples (.txt) **não** aparece na lista. O limite é de 30 MB por arquivo, em envios e downloads.
+- Criar arquivos consome mais do limite de uso do plano do que uma conversa comum (relevante para o plano gratuito).
 
 ## Pendências de verificação
 
@@ -61,11 +64,12 @@ Nada abaixo entra na apostila antes de confirmado na documentação oficial ou e
 
 - [ ] Preferências de perfil no plano gratuito (a documentação oficial não deixa claro)
 - [ ] Projetos no plano gratuito (a documentação se contradiz: uma versão diz só pagos, outra diz até cinco gratuitos)
-- [ ] Criação de arquivos e Artifacts: testar em conta gratuita de verdade (a documentação diz que o botão precisa estar ligado em Configurações > Capacidades)
-- [ ] Passos de configuração no celular (a documentação de idioma cobre só web e desktop)
+- [ ] Criação de arquivos e Artifacts: testar em conta gratuita de verdade (a documentação diz que vem ligada por padrão e que o botão fica em Configurações > Capacidades)
+- [ ] Passos de idioma e preferências no celular (a documentação de idioma cobre só web e desktop; para a criação de arquivos o caminho no celular está descrito)
 - [ ] Confirmar os critérios de acerto dos passos 1, 2 e 3 (hoje são propostas)
 - [ ] Definir o formato do Git opcional do passo 6 (extra do Dia 1 ou aula futura)
 - [ ] Escolher as 3 ideias de artifact do passo 4
+- [ ] Escolher o formato do arquivo do passo 3 (Word ou PDF; texto simples não está entre os formatos de criação)
 
 ## Próximos passos
 

@@ -20,7 +20,19 @@ Objetivo · tempo estimado · passo a passo prático · exercício · critério 
 
 - **Conversa**: cada diálogo com o Claude. "Chat" é a mesma coisa; usamos sempre "conversa".
 
-## Dia 1: esqueleto e decisões
+## Arquivos do repositório
+
+- `README.md`: este arquivo (visão geral, decisões e pendências)
+- `aula-01/01-configurar-ambiente.md`
+- `aula-01/02-pedir-bem.md`
+- `aula-01/03-anexar-arquivos.md`
+- `aula-01/04-criar-com-artifacts.md`
+- `aula-01/05-revisar-e-aprender.md`
+- `aula-01/06-fechamento.md`
+
+Cada aula tem, no fim, um comentário de **notas do autor** (invisível quando renderizado) com o que ainda falta testar. Esses comentários devem ser removidos antes de publicar.
+
+## Dia 1: passos e decisões
 
 Duração total prevista: 80 minutos.
 
@@ -30,28 +42,32 @@ Duração total prevista: 80 minutos.
 | 2 | Pedir bem: pedido vago vs. pedido claro | 20 min | Aula escrita |
 | 3 | Anexar arquivos e pedir uma revisão | 15 min | Aula escrita |
 | 4 | Gerar algo de verdade com Artifacts e ajustar em 2 ou 3 pedidos | 20 min | Aula escrita |
-| 5 | Revisar e aprender: pedir que o Claude explique o que fez e conferir o resultado | 10 min | Desenho fechado |
-| 6 | Fechamento: guardar o que produziu em uma pasta e anotar o que aprendeu (Git opcional) | 5 min | Desenho fechado |
+| 5 | Revisar e aprender: pedir que o Claude explique o que fez e conferir o resultado | 10 min | Aula escrita |
+| 6 | Fechamento: guardar o que produziu em uma pasta e anotar o que aprendeu | 5 min | Aula escrita |
 
 ### Decisões já tomadas
 
-- **Passo 1:** a configuração vem primeiro, e o **idioma** é o primeiro item. O aluno escreve as preferências **com as próprias palavras** (com um modelo para guiar), e a aula avisa que o Claude pode ajudar a escrevê-las. A criação de arquivos também é ligada aqui, porque os passos 3 e 4 dependem dela.
+- **Passo 1:** a configuração vem primeiro, e o **idioma** é o primeiro item. O aluno escreve as preferências **com as próprias palavras** (com um modelo de 4 perguntas para guiar: idioma, tom, nível e tamanho/formato, mais uma dica opcional sobre o que evitar), e a aula avisa que o Claude pode ajudar a escrevê-las. A criação de arquivos também é conferida aqui, porque os passos 3 e 4 dependem dela.
   - *Critério de acerto (proposta, a confirmar):* o aluno abre uma conversa nova, escreve "oi" e recebe resposta em português, no tom que pediu.
 - **Passo 2:** o pedido é **fixo e igual para todos**: um e-mail pedindo folga. O aluno abre **duas conversas novas e separadas** (a separação evita que o primeiro pedido influencie o segundo): primeiro o pedido vago, depois o pedido claro (com destinatário, motivo, datas, tom e tamanho). Ele compara as respostas e **descobre sozinho** o que mudou, guiado por perguntas (por exemplo: "qual resposta você poderia enviar sem mudar nada?"). Só depois a apostila nomeia os elementos de um bom pedido: contexto, objetivo, restrições e formato.
   - *Textos fixos (aprovados):* pedido vago: "Escreva um e-mail pedindo folga." Pedido claro: "Escreva um e-mail para o meu chefe, o Carlos, pedindo folga nos dias 14 e 15 de dezembro, para resolver um assunto pessoal. O tom deve ser educado e formal. Use no máximo 5 linhas, inclua uma linha de assunto e termine agradecendo."
   - *Critério de acerto (proposta, a confirmar):* o aluno consegue dizer, com as próprias palavras, pelo menos dois elementos do pedido claro que melhoraram a resposta.
 - **Passo 3:** o aluno escolhe um assunto de que gosta, e o Claude cria um **documento do Word (.docx)** de uma página com 5 problemas escondidos (3 de ortografia ou gramática, 1 informação errada e 1 trecho confuso). O aluno baixa o arquivo, tenta achar 2 problemas sozinho e, em uma **conversa nova**, anexa o arquivo e pede a revisão (a conversa nova evita que o Claude já conheça os erros, e a apostila explica isso ao aluno). A apostila avisa que criar arquivos gasta mais do limite do plano gratuito. O exercício com **código de programação fica fora do Dia 1** (aula futura, "Claude para quem programa").
   - *Critério de acerto (proposta, a confirmar):* o Claude listou ao menos 3 problemas e o aluno consegue explicar um deles com as próprias palavras.
-- **Passo 4:** o aluno escolhe entre **3 ideias simples** listadas na apostila (por exemplo: divisão de conta, conversor de medidas culinárias, quiz). Todas funcionam **sem guardar dados**, para que ninguém peça algo que o plano gratuito não permite. O aluno faz 2 ou 3 pedidos de ajuste, um de cada vez, escolhendo entre uma lista curta de sugestões por ideia e podendo criar um ajuste só dele. O pedido inicial de cada ideia já traz os 4 elementos do passo 2.
+- **Passo 4:** o aluno escolhe entre **3 ideias simples** listadas na apostila (divisão de conta, conversor de medidas culinárias e quiz). Todas funcionam **sem guardar dados**, para que ninguém peça algo que o plano gratuito não permite. O aluno faz 2 ou 3 pedidos de ajuste, um de cada vez, escolhendo entre uma lista curta de sugestões por ideia e podendo criar um ajuste só dele. O pedido inicial de cada ideia já traz os 4 elementos do passo 2.
   - *Critério de acerto:* o resultado mudou conforme os pedidos de ajuste.
-- **Passo 5:** além de pedir ao Claude uma **explicação em linguagem simples** do que ele fez, o aluno **confere** o resultado: testa o artifact com um caso de resposta conhecida (por exemplo, 100 dividido por 4 dá 25) e aprende a pedir ao Claude que aponte onde pode ter errado. A mensagem central: o Claude pode errar, e quem confere é você.
+- **Passo 5:** feito na **mesma conversa do passo 4** (ao contrário do passo 3), porque o Claude precisa lembrar do que fez. O aluno pede uma **explicação em linguagem simples** e depois pede que o Claude aponte onde a ferramenta pode ter erros (a apostila avisa que essa autocrítica é só um ponto de partida). O ponto central é a **conferência**: o aluno testa a ferramenta com um caso de resposta conhecida (A: 100 reais entre 4 pessoas; B: uma conversão que ele conhece, com o aviso de que medidas de cozinha variam entre fontes; C: uma pergunta cuja resposta ele sabe, e a conferência da pontuação). A mensagem central: o Claude pode errar, e quem confere é você. No fim, o aluno anota uma frase do que aprendeu, que alimenta o passo 6.
   - *Critério de acerto:* o aluno testou com um caso conhecido e consegue dizer se o resultado estava certo.
-- **Passo 6:** dois níveis. **Para todos:** guardar os arquivos do dia (o texto do passo 3, o artifact, as respostas de que gostou) em uma pasta no computador, com um arquivo de anotações do que aprendeu. **Opcional:** Git, para quem quiser ir além.
+- **Passo 6:** o aluno cria uma **pasta no computador** e guarda nela o documento do Word do passo 3 e um **arquivo de anotações** com 4 partes: suas preferências, o que fazia o pedido claro funcionar melhor, qual ferramenta criou e onde achá-la (aba Artifacts, na barra lateral), e a frase aprendida. A ferramenta do passo 4 **não vai para a pasta**, porque a documentação não deixa claro como baixar um artifact comum no plano gratuito. O **Git** aparece só como uma menção curta no fim, para uma aula futura (assumido, a confirmar).
+  - *Critério de acerto (proposta, a confirmar):* a pasta tem o documento do passo 3 e o arquivo de anotações com as 4 partes preenchidas.
 
 ## Confirmado na documentação oficial
 
 - Artifacts estão disponíveis nos planos Free, Pro, Max, Team e Enterprise, mas exigem que a execução de código e a criação de arquivos estejam ligadas em Configurações > Capacidades.
-- O armazenamento persistente de artifacts é só dos planos Pro, Max, Team e Enterprise (não do gratuito).
+- No plano gratuito é possível criar artifacts em uma conversa. Os **modelos** (Design, Slides e Docs), a conexão de apps e o **armazenamento de dados** em artifacts são só dos planos pagos.
+- O artifact abre em uma janela ao lado da conversa, e tudo que o aluno cria fica salvo na aba **Artifacts**, na barra lateral.
+- Se um artifact der erro, há um botão "Try fixing with Claude" perto da mensagem de erro; o Claude tenta corrigir, sem garantia de sucesso.
+- A exportação descrita (Word, PDF e outros formatos) vale para artifacts de modelos e para artifacts "legados" (criados em conversa antes de 16 de setembro de 2026). Não está claro como baixar um artifact comum criado agora no plano gratuito.
 - O idioma da tela se muda pelo ícone do perfil, no canto inferior esquerdo, em "Idioma" (web e desktop). Português do Brasil está entre os idiomas aceitos, e o Claude responde na língua que o aluno usar.
 - O modo de voz tem um ajuste de idioma separado.
 - Execução de código e criação de arquivos está disponível em todos os planos, inclusive o gratuito, e vem **ligada por padrão** nos planos Free, Pro e Max. O botão fica em Configurações > Capacidades ("Code execution and file creation"). No celular, o caminho descrito é: tocar no nome ou nas iniciais na barra lateral > Configurações > Capacidades.
@@ -65,13 +81,18 @@ Nada abaixo entra na apostila antes de confirmado na documentação oficial ou e
 - [ ] Preferências de perfil no plano gratuito (a documentação oficial não deixa claro)
 - [ ] Projetos no plano gratuito (a documentação se contradiz: uma versão diz só pagos, outra diz até cinco gratuitos)
 - [ ] Criação de arquivos e Artifacts: testar em conta gratuita de verdade (a documentação diz que vem ligada por padrão e que o botão fica em Configurações > Capacidades)
+- [ ] Como baixar ou exportar um artifact comum no plano gratuito (decide se o passo 6 poderá guardar a ferramenta na pasta)
 - [ ] Passos de idioma e preferências no celular (a documentação de idioma cobre só web e desktop; para a criação de arquivos o caminho no celular está descrito)
-- [ ] Confirmar os critérios de acerto dos passos 1, 2 e 3 (hoje são propostas)
-- [ ] Definir o formato do Git opcional do passo 6 (extra do Dia 1 ou aula futura)
+- [ ] Confirmar os critérios de acerto dos passos 1, 2, 3 e 6 (hoje são propostas)
+- [ ] Confirmar o Git opcional do passo 6 como menção curta (assumido)
 - [ ] Confirmar as 3 ideias de artifact do passo 4 (divisão de conta, conversor de medidas culinárias e quiz), assumidas como aprovadas
+- [ ] Revisar os textos dos pedidos dos passos 3, 4 e 5 (são rascunhos)
+- [ ] Decidir se a aula do passo 4 ganha as dicas confirmadas (o artifact abre ao lado da conversa e o botão de correção de erros)
+- [ ] Testar as 6 aulas em uma conta gratuita e remover os comentários de notas do autor antes de publicar
 
 ## Próximos passos
 
-1. Escrever as aulas restantes do Dia 1 em Markdown, uma por passo (passos 1 a 4 já escritos, em `aula-01/`), seguindo o padrão de cada aula
-2. Testar as pendências em uma conta gratuita
-3. Montar o site e gerar a apostila
+1. Testar as aulas do Dia 1 em uma conta gratuita e resolver as pendências acima
+2. Remover os comentários de notas do autor das aulas
+3. Montar o site e gerar a apostila (PDF) a partir dos arquivos Markdown
+4. Planejar as aulas futuras já citadas: "Claude para quem programa" e uma aula de Git

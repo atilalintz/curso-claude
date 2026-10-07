@@ -30,8 +30,6 @@ Objetivo · tempo estimado · passo a passo prático · exercício · critério 
 - `aula-01/05-revisar-e-aprender.md`
 - `aula-01/06-fechamento.md`
 
-Cada aula tem, no fim, um comentário de **notas do autor** (invisível quando renderizado) com o que ainda falta testar. Esses comentários devem ser removidos antes de publicar.
-
 ## Dia 1: passos e decisões
 
 Duração total prevista: 80 minutos.
@@ -88,11 +86,11 @@ Nada abaixo entra na apostila antes de confirmado na documentação oficial ou e
 - [ ] Confirmar as 3 ideias de artifact do passo 4 (divisão de conta, conversor de medidas culinárias e quiz), assumidas como aprovadas
 - [ ] Revisar os textos dos pedidos dos passos 3, 4 e 5 (são rascunhos)
 - [ ] Decidir se a aula do passo 4 ganha as dicas confirmadas (o artifact abre ao lado da conversa e o botão de correção de erros)
-- [ ] Testar as 6 aulas em uma conta gratuita e remover os comentários de notas do autor antes de publicar
+- [ ] Testar as 6 aulas em uma conta gratuita (os itens específicos do plano gratuito continuam sem confirmação)
 
 ## Próximos passos
 
 1. Testar as aulas do Dia 1 em uma conta gratuita e resolver as pendências acima
-2. Remover os comentários de notas do autor das aulas
-3. Montar o site e gerar a apostila (PDF) a partir dos arquivos Markdown
+2. Montar o site e gerar a apostila (PDF) a partir dos arquivos Markdown
+3. Desenhar o Dia 2 (em andamento)
 4. Planejar as aulas futuras já citadas: "Claude para quem programa" e uma aula de Git

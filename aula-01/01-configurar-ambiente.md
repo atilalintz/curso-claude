@@ -72,9 +72,3 @@ Se algo não combinou, volte ao passo 2, ajuste o texto das preferências e test
 
 Passo 2: **Pedir bem**. Você vai ver, na prática, como o mesmo pedido pode dar respostas muito diferentes.
 
-<!--
-NOTAS DO AUTOR (remover antes de publicar):
-- Conferir em uma conta gratuita de verdade: (a) se as preferências de perfil estão disponíveis no plano gratuito; (b) o nome exato do campo e o caminho nas Configurações, em português; (c) o nome exato da opção de "execução de código e criação de arquivos" na interface em português e o nome da seção "Capacidades"; (d) se as preferências valem também para conversas já abertas ou só para as novas.
-- Confirmar o critério de acerto (hoje é proposta).
-- Passos no celular não foram conferidos; a documentação de idioma cobre só web e desktop.
--->

@@ -55,11 +55,3 @@ Quem trabalha com programação costuma guardar projetos com uma ferramenta cham
 
 Parabéns, você terminou o Dia 1.
 
-<!--
-NOTAS DO AUTOR (remover antes de publicar):
-- A ferramenta criada no passo 4 não é guardada na pasta: a documentação oficial não deixa claro como exportar um artifact criado em conversa no plano gratuito (a exportação descrita é para artifacts de modelos, que são só dos planos pagos, e para artifacts legados). Por isso a aula manda anotar onde achá-lo (aba Artifacts). Testar em conta gratuita se existe como baixar.
-- O Git opcional foi tratado como menção curta, conforme minha sugestão, que você ainda não confirmou.
-- O critério de acerto é uma proposta, a confirmar.
-- Os nomes exatos da aba Artifacts e da barra lateral em português precisam ser conferidos em conta real.
-- Passos no celular não foram conferidos.
--->

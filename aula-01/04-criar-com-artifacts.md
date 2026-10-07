@@ -81,10 +81,3 @@ Você acertou se o resultado **mudou conforme os seus 2 ou 3 pedidos de ajuste**
 
 Passo 5: **Revisar e aprender**. Você vai pedir ao Claude que explique o que fez e vai conferir se o resultado está certo.
 
-<!--
-NOTAS DO AUTOR (remover antes de publicar):
-- Testar em conta gratuita: (a) se cada um dos 3 pedidos prontos gera uma ferramenta que funciona; (b) como o Artifact aparece na tela em português e se o aluno consegue usá-lo sem instruções extras; (c) se os ajustes sugeridos funcionam sem quebrar a ferramenta.
-- O conversor de medidas pode trazer valores que variam conforme a fonte (o peso de uma xícara depende do ingrediente); isso é bom para o passo 5, mas conferir o que o Claude entrega.
-- Confirmar as 3 ideias de artifact (foram assumidas como aprovadas).
-- Passos no celular não foram conferidos.
--->

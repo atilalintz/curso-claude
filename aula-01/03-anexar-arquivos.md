@@ -65,10 +65,3 @@ Você acertou se o Claude listou **pelo menos 3 problemas** e você consegue **e
 
 Passo 4: **Criar uma ferramenta de verdade** com Artifacts.
 
-<!--
-NOTAS DO AUTOR (remover antes de publicar):
-- O critério de acerto deste passo é uma proposta, a confirmar.
-- Testar em conta gratuita: (a) se o Claude cumpre o pedido de plantar 5 problemas sem revelar onde estão; (b) onde fica o botão de baixar o arquivo na interface em português; (c) qual é o ícone e o nome do botão de anexar; (d) que aviso aparece quando o limite do plano é atingido e se "retomar mais tarde" é a orientação correta.
-- O Claude pode revisar menos ou mais do que 5 problemas; a aula não promete um número exato.
-- Passos no celular não foram conferidos.
--->

@@ -67,9 +67,3 @@ Você acertou se **testou a ferramenta com um caso que você conhece** e consegu
 
 Passo 6: **Fechamento**. Você vai guardar tudo o que produziu hoje em uma pasta.
 
-<!--
-NOTAS DO AUTOR (remover antes de publicar):
-- Testar em conta gratuita como o Claude responde aos dois pedidos (explicação e pontos de atenção). Ele pode responder que está tudo correto; a aula depende do teste do aluno, não dessa resposta.
-- O critério de acerto deste passo foi combinado nas decisões do curso.
-- Passos no celular não foram conferidos.
--->

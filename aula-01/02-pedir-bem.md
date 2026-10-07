@@ -69,9 +69,3 @@ Antes de enviar um pedido, pergunte-se: **o Claude sabe o contexto, o objetivo, 
 
 Passo 3: **Anexar arquivos e pedir uma revisão**.
 
-<!--
-NOTAS DO AUTOR (remover antes de publicar):
-- O critério de acerto deste passo é uma proposta, a confirmar.
-- O comportamento do Claude diante do pedido vago varia (pode escrever um modelo genérico, inventar dados ou fazer perguntas). A aula não prevê um resultado específico; testar e, se quiser, incluir exemplos reais depois.
-- Conferir em conta real o nome do botão de nova conversa na interface em português.
--->

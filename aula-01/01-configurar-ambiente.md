@@ -23,7 +23,7 @@ A tela muda sozinha. Importante: o idioma da tela são os menus e botões. O idi
 
 ### 2. Escrever suas preferências
 
-As preferências são um texto curto onde você diz **como quer que o Claude converse com você**. Ele passa a considerar esse texto nas suas conversas.
+As preferências são um texto curto onde você diz **como quer que o Claude converse com você**. Ele passa a considerar esse texto nas suas conversas. Na tela, o campo onde você escreve esse texto se chama **Instruções para o Claude**.
 
 **a) Responda 4 perguntas, para você mesmo:**
 
@@ -36,7 +36,15 @@ As preferências são um texto curto onde você diz **como quer que o Claude con
 
 > Responda sempre em português do Brasil. Fale de forma amigável e direta. Sou iniciante, então explique passo a passo e evite termos técnicos; se usar algum, explique o significado. Prefiro respostas curtas, e só mais longas quando eu pedir.
 
-**c) Cole o seu texto no campo de preferências** (em Configurações, no campo de preferências pessoais) e salve.
+**c) Cole o seu texto no campo "Instruções para o Claude":**
+
+1. Abra as **Configurações**.
+2. Entre em **Conta**.
+3. Na parte **Perfil**, procure o campo **Instruções para o Claude**.
+4. Cole o seu texto nele.
+5. Confira se o texto ficou guardado: feche as Configurações, abra de novo e veja se ele continua lá.
+
+**Atenção:** não confunda com a seção **Memória**, que fica no mesmo menu. A Memória guarda informações das suas conversas. O campo onde você escreve o seu texto é o **Instruções para o Claude**, dentro de **Conta**.
 
 **Se travar, peça ajuda ao próprio Claude.** Em uma conversa, escreva, por exemplo:
 
@@ -71,4 +79,3 @@ Se algo não combinou, volte ao passo 2, ajuste o texto das preferências e test
 ## Próximo passo
 
 Passo 2: **Pedir bem**. Você vai ver, na prática, como o mesmo pedido pode dar respostas muito diferentes.
-

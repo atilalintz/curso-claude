@@ -16,8 +16,8 @@
 ### 1. Escolher o idioma da tela
 
 1. Clique no seu **ícone de perfil**, no canto inferior esquerdo.
-2. Entre na seção **Idioma**.
-3. Escolha **Português (Brasil)**.
+2. No menu que abre, clique em **Idioma**.
+3. Na janela **Escolha seu idioma**, escolha **Português (Brasil)**. Se preferir, digite o nome no campo de busca.
 
 A tela muda sozinha. Importante: o idioma da tela são os menus e botões. O idioma **das respostas** você define no próximo passo.
 
@@ -56,11 +56,12 @@ As preferências são um texto curto onde você diz **como quer que o Claude con
 
 ### 3. Ligar a criação de arquivos
 
-Nos passos 3 e 4 do Dia 1, o Claude vai criar arquivos e pequenas ferramentas para você. Para isso funcionar, esse recurso precisa estar ligado.
+Nos passos 3 e 4 do Dia 1, o Claude vai criar arquivos e pequenas ferramentas para você. Para isso funcionar, esses recursos precisam estar ligados.
 
 1. Abra as **Configurações**.
-2. Vá em **Capacidades**.
-3. Confira se a opção de **execução de código e criação de arquivos** (em inglês, *Code execution and file creation*) está **ligada**. Se não estiver, ligue.
+2. Vá em **Recursos**.
+3. Procure a opção **Execução de código e criação de arquivos** e confira se está **ligada**. Se não estiver, ligue.
+4. Na mesma tela, na parte **Visuais**, confira também se **Artifacts** está ligado.
 
 ## Exercício
 

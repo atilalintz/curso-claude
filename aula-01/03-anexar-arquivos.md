@@ -9,7 +9,7 @@
 - Ter feito o passo 1 (a criação de arquivos precisa estar **ligada**)
 - Ter um programa para abrir documentos do Word (.docx) no seu computador
 
-> **Aviso sobre o plano gratuito:** criar arquivos gasta **mais** do limite de uso do seu plano do que uma conversa comum, e este passo usa duas conversas. Se aparecer um aviso de que o limite foi atingido, pare e retome mais tarde.
+> **Aviso sobre o plano gratuito:** criar arquivos gasta **mais** do limite de uso do seu plano do que uma conversa comum, e este passo usa duas conversas. No plano gratuito, o limite é por sessão e se renova a cada cinco horas. Se aparecer um aviso de que o limite foi atingido, pare e retome mais tarde.
 
 ## Passo a passo
 
@@ -37,7 +37,7 @@
 
    **Por que uma conversa nova?** Na Conversa A, o Claude sabe quais problemas colocou no texto. Se você pedisse a revisão lá, ele poderia só repetir o que já sabe, e você não teria como testar se ele realmente revisa. Em uma conversa nova, ele lê o documento do zero, como se fosse de outra pessoa.
 
-2. **Anexe** o arquivo que você baixou, usando o botão de anexar, perto do campo onde você escreve.
+2. **Anexe** o arquivo que você baixou: clique no botão **+**, no canto inferior esquerdo do campo onde você escreve, e escolha **Adicionar arquivos ou fotos** (atalho: `Ctrl+U`).
 3. Copie o texto abaixo e envie:
 
    > Revise o documento anexado. Liste os problemas que encontrar (ortografia, gramática, informações duvidosas e trechos confusos), diga onde estão e sugira a correção.
@@ -64,4 +64,3 @@ Você acertou se o Claude listou **pelo menos 3 problemas** e você consegue **e
 ## Próximo passo
 
 Passo 4: **Criar uma ferramenta de verdade** com Artifacts.
-

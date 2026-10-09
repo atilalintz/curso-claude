@@ -13,8 +13,8 @@
 
 ### 1. Envie a ata ao Claude
 
-1. Abra uma **conversa nova**.
-2. Anexe o arquivo `ata-reuniao-cafe-girassol.pdf`. Você pode usar o botão **+**, perto do campo onde você escreve (no canto inferior esquerdo da conversa), ou arrastar o arquivo para dentro da janela.
+1. Abra uma **conversa nova**: clique em **Novo**, no alto da barra lateral.
+2. Anexe o arquivo `ata-reuniao-cafe-girassol.pdf`: clique no botão **+**, no canto inferior esquerdo do campo onde você escreve, e escolha **Adicionar arquivos ou fotos** (atalho: `Ctrl+U`). Você também pode arrastar o arquivo para dentro da janela.
 
 ### 2. Peça um resumo simples
 

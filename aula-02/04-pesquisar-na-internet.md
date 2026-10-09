@@ -4,7 +4,7 @@
 
 **Tempo estimado:** 20 minutos
 
-> **Aviso sobre o plano gratuito:** a pesquisa na internet está disponível no plano gratuito, mas conta para o seu **limite de uso diário**. Faça poucas pesquisas neste passo.
+> **Aviso sobre o plano gratuito:** a pesquisa na internet está disponível no plano gratuito, mas conta para o seu **limite de uso**, que no plano gratuito é por sessão e se renova a cada cinco horas. Faça poucas pesquisas neste passo.
 
 ## Antes de começar
 
@@ -35,7 +35,7 @@ Você pode escolher uma sugestão ou inventar a sua.
 
    > Pesquise na internet [a sua pergunta sobre o assunto]. No final, liste as fontes que você usou.
 
-**Sobre o botão de pesquisa:** dependendo da versão da tela, pode existir um botão para ligar a pesquisa na internet. Se ele existir, ligue-o. Em outras versões, o Claude decide sozinho quando pesquisar. Escrever "pesquise na internet" no pedido ajuda nos dois casos.
+**Sobre a pesquisa:** clique no botão **+**, no canto inferior esquerdo do campo onde você escreve, e confira se a opção **Busca na web** está marcada (com um visto). Se não estiver, marque. Escrever "pesquise na internet" no pedido também ajuda.
 
 Se o Claude não mostrar as fontes, peça: "Liste os links das fontes que você usou."
 

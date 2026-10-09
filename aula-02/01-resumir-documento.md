@@ -45,7 +45,8 @@ Responda para você mesmo:
 
 1. Qual resumo você poderia enviar a um colega **sem mudar nada**?
 2. O novo resumo mostra **as decisões aprovadas** e **a decisão que ficou pendente**?
-3. O que **mudou** entre um pedido e o outro? Que elementos você acrescentou?
+3. O novo resumo afirmou **algo que não está escrito na ata**? Abra o PDF e confira.
+4. O que **mudou** entre um pedido e o outro? Que elementos você acrescentou?
 
 ## Como saber que você acertou
 

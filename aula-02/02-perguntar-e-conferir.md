@@ -52,7 +52,7 @@ Você acertou se **conferiu pelo menos 3 respostas no PDF**, sabe dizer quais es
 
 1. Foi aprovado o orçamento de R$ 18.500, porque inclui o fogão novo, item que o orçamento mais barato não inclui.
 2. Rafael, até 30 de agosto.
-3. Sim: o cardápio de fim de ano. A decisão foi adiada, e Bianca traz os custos até 2 de setembro.
+3. Sim: o cardápio de fim de ano. A decisão foi adiada, e Bianca traz os custos até 21 de agosto.
 4. A partir de 1º de setembro, o café passa a abrir às 7h (hoje abre às 8h), de terça a sábado.
 5. 26 de agosto de 2026, às 18h.
 6. A ata **não informa** o preço do fogão novo.

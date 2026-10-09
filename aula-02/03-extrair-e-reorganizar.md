@@ -47,7 +47,7 @@ Você acertou se:
 | Tarefa | Responsável | Prazo |
 |--------|-------------|-------|
 | Contratar a obra da cozinha | Rafael | 30 de agosto |
-| Trazer os custos das 3 opções de cardápio | Bianca | 2 de setembro |
+| Trazer os custos das 3 opções de cardápio | Bianca | 21 de agosto |
 | Ajustar a escala da equipe | Tiago | não informado na ata |
 | Pagar o imposto | Marta | o imposto vence em 20 de agosto |
 

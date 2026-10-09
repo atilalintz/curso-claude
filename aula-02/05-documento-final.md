@@ -9,7 +9,7 @@
 - Estar na **mesma conversa** dos passos 1 a 3, onde estão a ata, o resumo, a tabela e a lista de pendências
 - Ter a criação de arquivos ligada (você conferiu isso no Passo 1 do Dia 1)
 
-> **Aviso sobre o plano gratuito:** criar arquivos gasta mais do limite de uso do que uma conversa comum.
+> **Aviso sobre o plano gratuito:** criar arquivos gasta mais do limite de uso do que uma conversa comum. No plano gratuito, o limite é por sessão e se renova a cada cinco horas.
 
 ## Passo a passo
 
